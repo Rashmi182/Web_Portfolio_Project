@@ -1,0 +1,13 @@
+Web Resume Project
+
+This project is a dynamic web-based resume created with HTML, CSS, and JavaScript. It features interactive elements such as direct links to my personal/professional website and internal page sections. The profile image changes on double-click, and hovering over the college name adjusts font size and style dynamically.
+
+Technologies Used:
+HTML: Structure and content presentation.
+CSS: Styling and layout design.
+JavaScript: Interactivity and dynamic behavior.
+
+Features:
+Direct link to personal/professional website.
+Interactive profile image change on double-click on profile photo in the main_page.html
+Font size and style adjustment on hovering over the college name in sub.html file

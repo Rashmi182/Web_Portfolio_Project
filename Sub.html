@@ -1,0 +1,109 @@
+<html>
+    <style>
+    #ab { 
+        background-image: aquamarine; 
+        font-size: 14pt; color:black;
+    }
+    #profileImage { 
+        cursor:pointer; 
+    }
+    #container { 
+        background-color:#87c735; 
+        width:5%; 
+        border-radius:15px; 
+        left: 102px; 
+    }
+    #percentage { 
+        background-color:#87c735; 
+        color:black; 
+        padding:-1%; 
+        text-align:right; 
+        font-size:10px; 
+        border-radius:15px 
+    }
+    #container2 { 
+        background-color:#87c735; 
+        width:10%; 
+        border-radius:15px; 
+        left:102px; 
+    }
+    #percentage2 { 
+        background-color:#87c735; 
+        color:black; 
+        padding:-1%; 
+        text-align:right; 
+        font-size:10px; 
+        border-radius:15px; 
+    }
+    .img { 
+        position:absolute; 
+        top:35px; 
+        left:500px; 
+        border-radius:50% 
+    }  
+    body {
+        background-color: #a3def0;
+    }
+    </style>
+    <body>
+        <span class="img">
+            <img src="profile.png" alt="Profile image" id="profileImage" onclick="changeImage()" width="230px" hight="250px"/>
+        </span>
+        <span id="ab">
+            <h1><u>Education</u></h1>
+            <span id="wordtext"; onmouseover="this.style.color='#dc3f13'; this.style.font='bold 18pt times new roman';" onmouseout="this.style.color='black'; this.style.font='bold 13pt times new roman';">
+                <b>Visvesvaraya &nbspTechnological &nbspUniversity</b>
+            </span>
+            <br>Computer &nbspScience &nbspand &nbspEngineering<br>Pursuing<br><br>
+
+            <span id="wordtext"; onmouseover="this.style.color='#dc3f13'; this.style.font='bold 18pt times new roman';" onmouseout="this.style.color='black';">
+                <b>Department &nbspof &nbspTechnical &nbspEducation</b>
+            </span>
+            <br>Computer &nbspScience &nbspand &nbspEngineering<br> 
+            Percentage: &nbsp
+            <div id="container">
+                <div id="percentage">80%</div>
+            </div><br><br>
+
+            <span id="wordtext"; onmouseover="this.style.color='#dc3f13'; this.style.font='bold 18pt times new roman';" onmouseout="this.style.color='black';">
+                <b>Choudapuri &nbspHiremath</b>
+            </span>
+            <br>10th &nbspstandard<br>
+            Percentage:&nbsp
+            <div id="container2">
+                <div id="percentage2">90%</div>
+            </div>
+            <h1>
+                <u>Skills</u>
+            </h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Multimedia</li>
+                <li>HTML with annimation</li>
+            </ul>
+            <h1><u>Certificates</u></h1>
+            <a href="Certi.pdf"> &nbsp;My Certificates</a>
+            <ul>
+                <li>Course completed: Certificate of Computer network(Junyper network)</li>
+                <li>Course completed: Certificate from W3Schools</li>
+            </ul>
+            <h1><u>Internships</u></h1>
+            <ul>
+                <li>Intern at Whiz Geek as a Front-end Web Developer</li>
+                <li>Inter at Varcons Technology as a Full Stack Web Developer</li>
+            </ul>
+            <h1><u>Projects</u></h1>
+            <ul>
+                <li>
+                    <b>Certified by a good project</b>
+                    <br>&nbsp;- News Aggregator<br>
+                    - Traffic control signal project
+                </li><br>
+            </ul>
+        </span>
+    </body>
+</html>
